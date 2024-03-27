@@ -1,17 +1,17 @@
 <!-- 
 
 layout : post
-title : Talking about classic devops pipeline
+title : Talking about the classic devops pipeline
 description : Out first post :b
 category : devops
 tags : devops
 comments : true 
 author : JRichardsz & Bitmanuc
-thumbnail_image_url: https://github.com/infinite-devops/infinite-devops.github.io/assets/3322836/89c62dd3-6c64-4fa1-9451-0526cb8c1877
+thumbnail_image_url: https://github.com/infinite-devops/infinite-devops.github.io/assets/3322836/aab5447c-e744-4566-bbbb-9b2b88b212cb
 datetime_str: 26 March 2024
 datetime : 2024-03-26
 duration: 0:30:20
-sound_url: http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3
+sound_url: https://soundcloud.com/kirito-kirigaya-502477697/aint-misbehavin-sample?si=598dc2d02861401e8bd0ac5f79f82728&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
 
 -->
 

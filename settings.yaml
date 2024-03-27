@@ -1,12 +1,15 @@
 site_name:         Infinite Devops
 description:       devops
 home_banner_image_url: https://github.com/infinite-devops/infinite-devops.github.io/assets/3322836/f35c7cc1-4a0e-41a5-a898-bef52989e7d4
-home_banner_title: What to listen to here?
+home_banner_title: What to listen here?
 home_banner_paragraph: |
-  Infinite DevOps is the podcast that helps you achieve understanding, develop good practices, and cheack real use cases. The show dives into what it takes to successfully develop, deliver and deploy software in today's ever-changing business environment.
+  Infinite DevOps is the podcast that helps you achieve understanding, 
+  develop good practices, and check real use cases. 
+  The show dives into what it takes to successfully develop, deliver and deploy 
+  software in today's ever-changing business environment.
 disqus_shortname:  jrichardsz-github-io
 base_url:          https://podcastjs.github.io
-about_us_paragraph: A site to share our day-to-day about podcasts.js
+about_us_paragraph: A site to share our day-to-day about devops
 
 podcasters:
   jrichardsz:
