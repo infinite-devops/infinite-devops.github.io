@@ -1,7 +1,7 @@
 # Infinite Devops Podcasts
 
 <p align="center">
-  <img src="./theme/favicon.png" width=150>  
+  <img src="https://github.com/infinite-devops/infinite-devops.github.io/assets/3322836/92171c9d-b8bf-4a04-b99a-760e3fd0adde" width=150>  
 </p>
 
 ## Requirements
@@ -16,13 +16,6 @@ Install the tool
 
 ```
 npm install -g github:/podcastjs/podcastjs
-```
-
-Create new site
-
-```
-podcastjs --new-site acme
-cd ./acme
 ```
 
 Start as developer

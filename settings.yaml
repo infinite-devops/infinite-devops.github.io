@@ -1,9 +1,9 @@
 site_name:         Infinite Devops
-description:       java, software, maths, ia, projects ,animes and series.
-home_banner_image_url: https://github.com/podcastjs/podcastjs/assets/3322836/0d8bdbf1-78f0-4728-bcf4-6a6a25487dfe
-home_banner_title: Tell Your Story to the World!!
+description:       devops
+home_banner_image_url: https://github.com/infinite-devops/infinite-devops.github.io/assets/3322836/f35c7cc1-4a0e-41a5-a898-bef52989e7d4
+home_banner_title: What to listen to here?
 home_banner_paragraph: |
-  Join with us! Login or Register. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, ex! 
+  Infinite DevOps is the podcast that helps you achieve understanding, develop good practices, and cheack real use cases. The show dives into what it takes to successfully develop, deliver and deploy software in today's ever-changing business environment.
 disqus_shortname:  jrichardsz-github-io
 base_url:          https://podcastjs.github.io
 about_us_paragraph: A site to share our day-to-day about podcasts.js

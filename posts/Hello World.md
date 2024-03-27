@@ -1,15 +1,15 @@
 <!-- 
 
 layout : post
-title : Hello World Podcastjs
-description : A hello world
-category : ai
-tags : series, fiction
+title : Talking about classic devops pipeline
+description : Out first post :b
+category : devops
+tags : devops
 comments : true 
-author : Rich Dotcom
-thumbnail_image_url: images/img_3.jpg
-datetime_str: 17 September 2017
-datetime : 2017-08-17
+author : JRichardsz & Bitmanuc
+thumbnail_image_url: https://github.com/infinite-devops/infinite-devops.github.io/assets/3322836/89c62dd3-6c64-4fa1-9451-0526cb8c1877
+datetime_str: 26 March 2024
+datetime : 2024-03-26
 duration: 0:30:20
 sound_url: http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3
 
