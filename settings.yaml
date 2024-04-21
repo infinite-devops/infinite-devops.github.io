@@ -24,13 +24,13 @@ podcasters:
     blog_url:           https://jrichardsz.github.io
 
   bitmanuc:
-    name:				Bitmanuc
-    avatar_image:			images/person_2.jpg
-    short_biography: Sysadmin
-    email:			you@email.com
-    twitter_url:        https://twitter.com/JRichardsz
-    github_url:         https://github.com/jrichardsz
-    stackoverflow_url:  http://stackoverflow.com/users/3957754/jrichardsz
-    youtube_url:        www.youtube.com/@JRichardsz
-    blog_url:           https://jrichardsz.github.io
+    name:                               Manuel C.
+    avatar_image:                       https://avatars.githubusercontent.com/u/31716953?s=96&v=4
+    short_biography: Server Admin
+    email:                      you@email.com
+    #twitter_url:        https://twitter.com/JRichardsz
+    github_url:         https://github.com/bitmanuc
+    #stackoverflow_url:  http://stackoverflow.com/users/3957754/jrichardsz
+    #youtube_url:        www.youtube.com/@JRichardsz
+    blog_url:           https://bitmanuc.github.io/
 
