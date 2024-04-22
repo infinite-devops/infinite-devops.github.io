@@ -22,7 +22,7 @@
 
   <link rel="stylesheet" href="css/style.css">
 
-  <script src='//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js'>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js'>
   </script>  
 
 </head>
@@ -41,12 +41,55 @@
           <div class="text-white mb-3"><span class="text-black-opacity-05"><small>{{this.author}} <span
                   class="sep">/</span> {{this.datetime_str}} <span class="sep">/</span> {{this.duration}}</small></span></div>
 
+          {{#if this.sounds.en}}
+            <div class="">
+              {{#if_strint_eq this.sounds.en.type "simple_url"}}
+              <div style="width: 10%; float:left" >
+                <img src="./images/languages/en.png" class="language_icon" style="margin-top: 5px;"/>
+              </div>
+              <div style="width: 90%; float:right">
+                <audio id="player2" preload="none" controls style="max-width: 100%" height="60">
+                  <source src="{{this.sounds.en.value}}" type="video/webm">
+                </audio>                
+              </div>
+              {{/if_strint_eq}}
+              {{#if_strint_eq this.sounds.en.type "vocaroo_url"}}
+              <div style="width: 10%; float:left" >
+                <img src="./images/languages/en.png" class="language_icon"/>
+              </div>
+              <div style="width: 90%; float:right">
+                <iframe width="100%" height="60" src="{{this.sounds.en.value}}" 
+                  frameborder="0" allow="autoplay"></iframe>             
+              </div>              
+              {{/if_strint_eq}} 
+            </div>
+          {{/if}}
 
-          <div class="player">
-            <audio id="player2" preload="none" controls style="max-width: 100%">
-              <source src="{{this.sound_url}}" type="audio/mp3">
-            </audio>
-          </div>
+          {{#if this.sounds.es}}
+            <br><br>
+            <div class="">
+              {{#if_strint_eq this.sounds.es.type "simple_url"}}
+              <div style="width: 10%; float:left" >
+                <img src="./images/languages/es.png" class="language_icon" style="margin-top: 5px;"/>
+              </div>
+              <div style="width: 90%; float:right">
+                <audio id="player2" preload="none" controls style="max-width: 100%" height="60">
+                  <source src="{{this.sounds.es.value}}" type="video/webm">
+                </audio>                
+              </div>
+              {{/if_strint_eq}}
+              {{#if_strint_eq this.sounds.es.type "vocaroo_url"}}
+              <div style="width: 10%; float:left" >
+                <img src="./images/languages/es.png" class="language_icon"/>
+              </div>
+              <div style="width: 90%; float:right">
+                <iframe width="100%" height="60" src="{{this.sounds.es.value}}" 
+                  frameborder="0" allow="autoplay"></iframe>             
+              </div>              
+              {{/if_strint_eq}} 
+            </div>
+          {{/if}}
+          
 
         </div>
       </div>   
@@ -69,13 +112,11 @@
 
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-4 custom-logo">
+          <div class="col-4 custom-logo" onclick="location.href='/';" style="cursor: pointer;">
             Infinite Devops
           </div>
           <div class="col-8">
             <nav class="site-navigation position-relative text-right text-md-right" role="navigation">
-
-
 
               <div class="d-block d-lg-none ml-md-0 mr-auto"><a href="#"
                   class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
@@ -170,19 +211,16 @@ software in today&#x27;s ever-changing business environment.
             </div>
             <div class="text-center p-3 p-md-5 bg-white">
               <div class="mb-4">            
-                <img src="images/person_2.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+                <img src="https://avatars.githubusercontent.com/u/31716953?s&#x3D;96&amp;v&#x3D;4" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
               </div>
               <div class="">
-                <h3 class="font-weight-light h5">Bitmanuc</h3>
-                <p>Sysadmin</p>
+                <h3 class="font-weight-light h5">Manuel C.</h3>
+                <p>Server Admin</p>
               </div>
               <p>
 
-                  <a href="https://github.com/jrichardsz" target="_blank" class="pl-3 pr-3"><span class="icon-github"></span></a>
-                  <a href="http://stackoverflow.com/users/3957754/jrichardsz" target="_blank" class="pl-3 pr-3"><span class="icon-stack-overflow"></span></a>
-                  <a href="https://twitter.com/JRichardsz" target="_blank" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                  <a href="www.youtube.com/@JRichardsz" target="_blank" class="pl-3 pr-3"><span class="icon-youtube"></span></a>
-                  <a href="https://jrichardsz.github.io" target="_blank" class="pl-3 pr-3"><span class="icon-web"></span></a>
+                  <a href="https://github.com/bitmanuc" target="_blank" class="pl-3 pr-3"><span class="icon-github"></span></a>
+                  <a href="https://bitmanuc.github.io/" target="_blank" class="pl-3 pr-3"><span class="icon-web"></span></a>
 
               </p>            
             </div>
