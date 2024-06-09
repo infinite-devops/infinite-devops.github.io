@@ -1,8 +1,8 @@
 <!-- 
 
 layout : post
-title : The infinite devops lifecycle
-description : Out first post :b
+title : Las fases del devops actual
+description : Primer post acerca de las clasicas fases del devops actual
 category : devops
 tags : devops
 comments : true 
@@ -11,13 +11,20 @@ thumbnail_image_url: https://github.com/infinite-devops/infinite-devops.github.i
 datetime_str: 26 March 2024
 datetime : 2024-03-26
 duration: 0:30:20
-
-sounds:
-  es : 
+sound: 
     type : vocaroo_url
     value : https://vocaroo.com/embed/1eeVr82U6LCK?autoplay=0
+    language: es
 
 -->
 
+En este podcast hemos hablado de las clasicas fases de un flujo devops moderno:
 
-# The infinite devops lifecycle
+- Plan
+- Code
+- Build
+- Test
+- Release
+- Deploy
+- Operate
+- Monitor

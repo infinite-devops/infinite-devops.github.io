@@ -43,7 +43,6 @@ echo -e "\nEnding : already processed"
 ## merge 3 files
 
 echo -e "\nConcat files"
-cat "$target_file.txt"
 
 echo "file '$opening_file""_fadeout.mp3'" > "$target_file.txt"
 echo "file '$middle_file""_middle.mp3'" >> "$target_file.txt"
@@ -51,7 +50,7 @@ echo "file '$ending_file'" >> "$target_file.txt"
 
 ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i "$target_file.txt" -c copy "$target_file"
 
-echo "\nDeleting temp files"
+echo -e "\nDeleting temp files"
 
 rm -rf "$opening_file""_fadeout.mp3"
 rm -rf "$middle_file""_middle.mp3"

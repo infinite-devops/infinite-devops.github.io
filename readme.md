@@ -27,7 +27,7 @@ podcastjs --start
 By default, it creates a **site** folder. If you need a custom folder:
 
 ```
-podcastjs --publish docs
+podcastjs --publish --output=docs
 ```
 
 ## How it works
