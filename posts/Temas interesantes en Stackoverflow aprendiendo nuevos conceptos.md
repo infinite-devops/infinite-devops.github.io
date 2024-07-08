@@ -21,6 +21,6 @@ En este podcast revisamos los temas o preguntas en Stackoverflow y encontramos t
 
 Links revisados:
 
-https://stackoverflow.com/questions/tagged/geronimo
-https://geronimo.apache.org/
-https://stackoverflow.com/?tab=bounties
+- https://stackoverflow.com/questions/tagged/geronimo
+- https://geronimo.apache.org/
+- https://stackoverflow.com/?tab=bounties
