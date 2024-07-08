@@ -8,8 +8,7 @@ tags : devops
 comments : true
 author : JRichardsz & Bitmanuc
 thumbnail_image_url: https://github.com/infinite-devops/infinite-devops.github.io/assets/31716953/ef433d12-fb90-43e2-9bef-58f66bf88372
-datetime_str: 23 June 2024
-datetime : 2024-06-23
+datetime : "2024-06-23"
 duration: 0:18:12
 sound:
     type : vocaroo_url

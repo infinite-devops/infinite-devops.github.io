@@ -35,3 +35,9 @@ podcastjs --publish --output=docs
 More details here
 
 https://github.com/podcastjs/podcastjs
+
+## Add docs/CNAME
+
+```
+www.infinite-devops.com
+```

@@ -8,8 +8,7 @@ tags : aws
 comments : true 
 author : JRichardsz & Bitmanuc
 thumbnail_image_url: https://github.com/infinite-devops/infinite-devops.github.io/assets/3322836/c5e89281-05b9-4f8a-886c-e72b0dcdb2dc
-datetime_str: 02 June 2024
-datetime : 2024-06-02
+datetime : "2024-06-02"
 duration: 0:32:52
 sound: 
     type : vocaroo_url
