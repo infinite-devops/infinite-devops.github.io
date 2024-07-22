@@ -1,7 +1,7 @@
 <!--
 
 layout : post
-title : Variables de entorno
+title : Importancia de las variables de entorno en un flujo Devops
 description : Conversaremos sobre las variables de entorno y su uso en devops
 category : devops
 tags : devops

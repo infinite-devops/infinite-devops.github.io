@@ -1,33 +1,32 @@
 ## Requirements
 
 - ffmpeg
-- audacity
+- podcast, opening and ending should be in mp3 format
+
+## Tips
+
+- If podcast has silence (begining/end) use audacity or ffmpeg to cut it and save it as mp3
 
 ## steps
 
-- ceate a folder. Sample:  /tmp/sandbox/
-- In case the podcast has several seconds of silence at the begining or ending, trim it using audacity and save it into the folder. Result: podcast.wav
-- download the selected opening and ending into the folder
+
 - execute
 
 Syntax
 
 ```
-bash join_v1.sh <opening_file> <podcast_file> <ending_file> <target_file>
+bash /home/foo/infinite-devops.github.io/scripts/audio_prepare_v2.sh
 ```
 
-```
-bash /home/computer/Github/infinite-devops.github.io/scripts/join_v1.sh /tmp/sandbox/opening.mp3 /tmp/sandbox/podcast.wav /tmp/sandbox/ending.mp3 /tmp/sandbox/podcast_01.mp3
-```
+- enter the required values :
+  - opening_file: absolute path of mp3 to be played at the begining
+  - ending_file: absolute path of mp3 to be played at the ending
+  - middle_file: absolute path of podcast recording
+  - target_file: absolute path of mp3 file to be created. If empty, it will be computed  
 
-## All in the same folder
-
-To keep simple, download all the files in the same foder, then execute:
-
-```
-bash /home/computer/Github/infinite-devops.github.io/scripts/join_v1.sh opening.mp3 podcast.mp3 ending.mp3 name_of_new_podcast.mp3
-```
+If no errors, the target_file with **_fixed** will be ready
 
 ## Roadmap
 
 - add param debug=true to keep the generated files
+- self conversion to mp3 : opening and ending

@@ -73,8 +73,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 text-center">
-            <a href="#">JRichardsz &amp; Bitmanuc </a><span class="mx-2">&bullet;</span>  <span class="mx-2">&bullet;</span> 0:26:18
-            <h1 class="mb-3">Variables de entorno</h1>
+            <a href="#">JRichardsz &amp; Bitmanuc </a><span class="mx-2">&bullet;</span> Jul 21 2024 <span class="mx-2">&bullet;</span> 00:36:28
+            <h1 class="mb-3">Caso crowdstrike colapso mundial de windows ¿Que hacer en las primeras horas?</h1>
           </div>
         </div>
       </div>
@@ -82,19 +82,37 @@
 
     <div class="container play-wrap">
       <div class="player mb-5" style="width: 100%;">
-            <iframe width="100%" height="60" src="https://vocaroo.com/embed/12R7Cb9LE5mC?autoplay&#x3D;0" 
+            <iframe width="100%" height="60" src="https://vocaroo.com/embed/1hOeu4OzqQsW?autoplay&#x3D;0" 
               frameborder="0" allow="autoplay">
             </iframe>             
       </div>
     </div>
 
     <div class="container">
-      <br><br>
       <div id="html-container">
-        <p>En este podcast hablamos sobre que son las Variables de Entorno, su uso, ventajas y desventajas. Adicionalmente, mencionamos alternativas que brindan mayor versatilidad al uso de Variables de Entono.</p>
-<p>Hacemos referencia a los 12 Factores, link para mayor información:</p>
+        <p align="center">
+  <img src="https://github.com/user-attachments/assets/5ce0ef49-8ebb-4f41-8462-0ef3ddce75c8" />
+</p>
+<br>
+<p>En este podcast hemos conversado sobre que hacer ante una situacion similar al Caso crowdstrike que ocasiono un colapso mundial en todas las máquinas que usa el sistema operativo windows.</p>
+<p>Especificamente solo vamos a tocar la corrección y no la investigacion ya que puede ser crítico (hospitales, aeropuertos, etc). En un siguiente podcast, conversaremos sobre como encontrar la causa del error, alternativas que pueden haber evitado este error, etc</p>
+<p>En resumen, lo que recomendamos es:</p>
 <ul>
-<li>https://12factor.net/</li>
+<li>Validar si el error es un caso aislado de muy pocos usuarios o si en realidad es un fallo en todas las maquinas de la empresa</li>
+<li>Comunicar el status a Gerencia</li>
+<li>Usando una máquina que tiene el error, aplicar un rollback (punto de control o imagen  ghost)</li>
+<li>Si el rollback ha funcionado, documentar los pasos exactos y pedir autorizacion a Gerencia para aplicar el procedimiento en todas las máquinas de la empresa.</li>
+</ul>
+<h2>Ideas para automatizar el rollback</h2>
+<p>El uso de un dispositivo conectado en cada maquina (inversión $) que sea capaz de :</p>
+<ul>
+<li>Activarse en background cuando el usuario final enciende la máquina, antes de la secuencia de booteo.</li>
+<li>Consultar a un servicio de la empresa que le responda si debe iniciar con normalidad o debe aplicar un rollback (punto de control, imagen ghost, comandos batch, etc)</li>
+</ul>
+<p>Este dispositivo deberia contener algo como:</p>
+<ul>
+<li>Un sistema inpirado en la version live de algunos distros linux o windows antiguos</li>
+<li>No debe tener interfaz de usuario. Todo en background!</li>
 </ul>
 
       </div>

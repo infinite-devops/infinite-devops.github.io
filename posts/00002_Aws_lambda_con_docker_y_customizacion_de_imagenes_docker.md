@@ -1,7 +1,7 @@
 <!-- 
 
 layout : post
-title : Aws lambda con docker e instalar herramientas en imagenes predeterminadas
+title : Aws lambda con docker y customizacion de imagenes docker
 description : Conversaremos sobre aws lambda con imagenes docker
 category : devops
 tags : aws

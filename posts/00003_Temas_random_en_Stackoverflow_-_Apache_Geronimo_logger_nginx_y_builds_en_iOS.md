@@ -1,7 +1,7 @@
 <!--
 
 layout : post
-title : Temas interesantes en Stackoverflow aprendendiendo nuevos conceptos
+title : Temas random en Stackoverflow - Apache Geronimo, logger, nginx y builds en iOS
 description : Conversaremos sobre tema diversos encontrados en Stackoverflow
 category : devops
 tags : devops
