@@ -10,6 +10,10 @@
 ## steps
 
 
+### trim
+
+Validate if podcast has a clean start and end. If not cut it with ffmpeg, audacity or another tool
+
 ### execute
 
 Syntax
@@ -61,6 +65,14 @@ sound:
     language: es
 ```
 
+## Test
+
+Start as developer
+
+```
+podcastjs --start
+```
+
 ## Push
 
 - Go to the workspace
@@ -74,6 +86,7 @@ podcastjs --publish --output=docs
 - Create a CNAME file in the docs folder with content
 
 ```
+nano docs/CNAME
 www.infinite-devops.com
 ```
 - Git push
