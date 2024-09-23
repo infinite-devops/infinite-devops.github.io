@@ -10,7 +10,7 @@
 ## steps
 
 
-- execute
+### execute
 
 Syntax
 
@@ -26,7 +26,75 @@ bash /home/foo/infinite-devops.github.io/scripts/audio_prepare_v2.sh
 
 If no errors, the target_file with **_fixed** will be ready
 
+
+### Upload
+
+https://vocaroo.com/
+
+Copy the url https://voca.ro/1egZqNgXrTXk
+
+Save the id: 1egZqNgXrTXk
+
+### Thumbnail image
+
+Go to
+
+https://github.com/infinite-devops/infinite-devops.github.io/wiki/CDN-%E2%80%90-Podcasts
+
+- Copy the background template in your favourite editor and customize it
+- Generate a new png
+- Upload to github wiki and get the new url
+
+## Markdown
+
+- Copy the last markdown and set a new name
+- Title should not contain spaces. Use underscore
+- Customize these fields: thumbnail_image_url, datetime (year/month/day), duration and change the id of vocaroo url
+
+```
+thumbnail_image_url: https://github.com/user-attachments/assets/6e2af6b6-bfcd-4b7d-a214-60522ce1ffae
+datetime : "2024-09-08"
+duration: 00:28:12
+sound:
+    type : vocaroo_url
+    value : https://vocaroo.com/embed/1egZqNgXrTXk?autoplay=0
+    language: es
+```
+
+## Push
+
+- Go to the workspace
+- Build
+
+
+```
+podcastjs --publish --output=docs
+```
+
+- Create a CNAME file in the docs folder with content
+
+```
+www.infinite-devops.com
+```
+- Git push
+
 ## Roadmap
 
 - add param debug=true to keep the generated files
 - self conversion to mp3 : opening and ending
+
+## Tips
+
+## webm to mp3
+
+```
+ffmpeg -i input.webm output.mp3
+```
+
+## cut with mp3
+
+### from second 6 to the end
+
+```
+ffmpeg -ss 55 -i ini.mp3 -acodec copy input_trim.mp4
+```

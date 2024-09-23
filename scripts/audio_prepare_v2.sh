@@ -48,10 +48,11 @@ if [[ -z "$target_file" ]]
 then
   read -p "Enter target_file: " target_file
 
-  if [[ -z "$target_file" ]]
+  if [[ ! -z "$target_file" ]]
   then
-    directory=$(dirname "$middle_file")  
-    filename=$(basename -- "$middle_file")
+    echo "foo"
+    directory=$(dirname "$target_file")  
+    filename=$(basename -- "$target_file")
     _extension="${filename##*.}"
     filename="${filename%.*}"
     target_file="$directory/$filename""_output.$extension"
@@ -68,6 +69,9 @@ echo "target_file: $target_file"
 echo "fade_out_duration: $fade_out_duration"
 echo "fade_in_duration: $fade_in_duration"
 echo "extension: $extension"
+
+fixed_file="$directory/$filename""_fixed.$extension"
+echo "fixed_file: $fixed_file"
 
 # fix
 
@@ -120,7 +124,10 @@ echo "file '$ending_file'" >> "$target_file.txt"
 cat "$target_file.txt"
 
 ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i "$target_file.txt" -acodec copy "$target_file"
-ffmpeg -i "$target_file" "$directory/$filename""_fixed.$extension"
+
+echo "Fixing mp3"
+
+ffmpeg -i "$target_file" "$fixed_file"
 
 echo -e "\nDeleting temp files"
 

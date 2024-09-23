@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Infinite Devops</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900">
+  <link rel="stylesheet" href="/fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/magnific-popup.css">
+  <link rel="stylesheet" href="/css/jquery-ui.css">
+  <link rel="stylesheet" href="/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+
+
+  <link rel="stylesheet" href="/css/aos.css">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src='//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js'>
+  </script>  
+
+</head>
+
+<body>
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <header class="site-navbar py-4" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+
+
+          <div class="col-4 custom-logo" onclick="location.href='/';" style="cursor: pointer;">
+            Infinite Devops
+          </div>
+          <div class="col-8">
+            <nav class="site-navigation position-relative text-right text-md-right" role="navigation">
+
+              <div class="d-block d-lg-none ml-md-0 mr-auto"><a href="#"
+                  class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+              <ul class="site-menu js-clone-nav d-none d-lg-block">
+                <li class="active">
+                  <a href="/">Home</a>
+                </li>
+              </ul>
+            </nav>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </header>
+
+    <div class="site-blocks-cover inner-page-cover bg-light mb-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 text-center">
+            <a href="#">JRichardsz &amp; Bitmanuc </a><span class="mx-2">&bullet;</span> Sep 08 2024 <span class="mx-2">&bullet;</span> 00:28:12
+            <h1 class="mb-3">Importancia de acceso a devops logs para desarrolladores y el equipo</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container play-wrap">
+      <div class="player mb-5" style="width: 100%;">
+            <iframe width="100%" height="60" src="https://vocaroo.com/embed/1egZqNgXrTXk?autoplay&#x3D;0" 
+              frameborder="0" allow="autoplay">
+            </iframe>             
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="html-container">
+        <p align="center">
+  <img src="https://github.com/user-attachments/assets/5ce0ef49-8ebb-4f41-8462-0ef3ddce75c8" />
+</p>
+<br>
+<p>En este podcast hemos conversado sobre que hacer ante una situacion similar al Caso crowdstrike que ocasiono un colapso mundial en todas las máquinas que usa el sistema operativo windows.</p>
+<p>Especificamente solo vamos a tocar la corrección y no la investigacion ya que puede ser crítico (hospitales, aeropuertos, etc). En un siguiente podcast, conversaremos sobre como encontrar la causa del error, alternativas que pueden haber evitado este error, etc</p>
+<p>En resumen, lo que recomendamos es:</p>
+<ul>
+<li>Validar si el error es un caso aislado de muy pocos usuarios o si en realidad es un fallo en todas las maquinas de la empresa</li>
+<li>Comunicar el status a Gerencia</li>
+<li>Usando una máquina que tiene el error, aplicar un rollback (punto de control o imagen  ghost)</li>
+<li>Si el rollback ha funcionado, documentar los pasos exactos y pedir autorizacion a Gerencia para aplicar el procedimiento en todas las máquinas de la empresa.</li>
+</ul>
+<h2>Ideas para automatizar el rollback</h2>
+<p>El uso de un dispositivo conectado en cada maquina (inversión $) que sea capaz de :</p>
+<ul>
+<li>Activarse en background cuando el usuario final enciende la máquina, antes de la secuencia de booteo.</li>
+<li>Consultar a un servicio de la empresa que le responda si debe iniciar con normalidad o debe aplicar un rollback (punto de control, imagen ghost, comandos batch, etc)</li>
+</ul>
+<p>Este dispositivo deberia contener algo como:</p>
+<ul>
+<li>Un sistema inpirado en la version live de algunos distros linux o windows antiguos</li>
+<li>No debe tener interfaz de usuario. Todo en background!</li>
+</ul>
+
+      </div>
+    </div>
+
+      <div id="disqus_thread"></div>
+      <script>
+          /**
+          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+          /*
+          var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          */
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://www-infinite-devops-com.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> 
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+          <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>A site to share our day-to-day about devops</p>
+          </div>
+        </div>
+
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script data-cfasync="false"></script>
+              <script>document.write(new Date().getFullYear());</script> 
+              , Infinite Devops, All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+      
+    <!-- libraries -->
+    <script src="/js/libraries/jquery-3.3.1.min.js"></script>
+    <script src="/js/libraries/jquery-migrate-3.0.1.min.js"></script>
+    <script src="/js/libraries/jquery-ui.js"></script>
+    <script src="/js/libraries/popper.min.js"></script>
+    <script src="/js/libraries/bootstrap.min.js"></script>
+    <script src="/js/libraries/jquery.countdown.min.js"></script>
+    <script src="/js/libraries/jquery.magnific-popup.min.js"></script>
+    <script src="/js/libraries/aos.js"></script>
+    <script src="/js/libraries/mediaelement-and-player.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/techfort/LokiJS/master/src/lokijs.js"></script>
+    
+    <!-- application -->
+    <script src="/js/api-client.js"></script>
+    <script src="/js/home-podcast-controller.js"> </script>
+    <script src="/js/entrypoint.js"> </script>
+    
+  
+</body>
