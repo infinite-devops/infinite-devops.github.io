@@ -1,7 +1,7 @@
 <!--
 
 layout : post
-title : Ambientes efímeros
+title : Ambientes efímeros usos y ventajas
 description : Conversaremos sobre los ambientes efímeros (no productivos) y sus ventajas.
 category : devops
 tags : devops
