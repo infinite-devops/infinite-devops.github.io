@@ -35,3 +35,13 @@ podcasters:
     blog_url:           https://bitmanuc.github.io/
 
 disqus_id: www-infinite-devops-com.disqus.com
+
+google_analytics_section: |
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3KDZ5Z52X1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3KDZ5Z52X1');
+  </script>
