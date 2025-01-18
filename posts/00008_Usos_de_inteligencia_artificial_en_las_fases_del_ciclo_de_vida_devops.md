@@ -17,7 +17,7 @@ sound:
 -->
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bd785e10-083e-4d9f-bdb9-a092c68029e0" />
+  <img src="https://github.com/user-attachments/assets/bd785e10-083e-4d9f-bdb9-a092c68029e0" class="sing_post_top_image" />
 </p>
 
 <br>
