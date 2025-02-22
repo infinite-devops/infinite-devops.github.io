@@ -1,7 +1,7 @@
 ## Requirements
 
 - ffmpeg
-- podcast, opening and ending should be in mp3 format
+- podcast, opening and ending should be in mp3 format. If there is an error with ffmpeg use this https://cloudconvert.com/webm-to-mp3
 
 ## Tips
 
@@ -51,7 +51,7 @@ https://github.com/infinite-devops/infinite-devops.github.io/wiki/CDN-%E2%80%90-
 
 ## Markdown
 
-- Copy the last markdown and set a new name
+- Copy the last markdown (from post folder) and set a new name using the sequence
 - Title should not contain spaces. Use underscore
 - Customize these fields: thumbnail_image_url, datetime (year/month/day), duration and change the id of vocaroo url
 
