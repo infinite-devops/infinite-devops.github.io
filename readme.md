@@ -18,6 +18,8 @@ Install the tool
 npm install -g github:/podcastjs/podcastjs
 ```
 
+Create post in folder `posts`
+
 Start as developer
 
 ```
