@@ -23,8 +23,8 @@ bash /home/foo/infinite-devops.github.io/scripts/audio_prepare_v2.sh
 ```
 
 - enter the required values :
-  - opening_file: absolute path of mp3 to be played at the begining
-  - ending_file: absolute path of mp3 to be played at the ending
+  - opening_file: absolute path of mp3 to be played at the begining (https://drive.google.com/drive/folders/1F9PPAMMuHw0TZOY0qb4FVy0NAIAthKwS)
+  - ending_file: absolute path of mp3 to be played at the ending (https://drive.google.com/drive/folders/1dijNy725SAKH6FLI02u70hBwviS1_Ush)
   - middle_file: absolute path of podcast recording
   - target_file: absolute path of mp3 file to be created. If empty, it will be computed  
 
@@ -35,9 +35,9 @@ If no errors, the target_file with **_fixed** will be ready
 
 https://vocaroo.com/
 
-Copy the url https://voca.ro/1egZqNgXrTXk
+Save the id from a url like: https://voca.ro/1egZqNgXrTXk
 
-Save the id: 1egZqNgXrTXk
+Set this id in the markdown
 
 ### Thumbnail image
 
